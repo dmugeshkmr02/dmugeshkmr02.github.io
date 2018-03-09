@@ -1,0 +1,285 @@
+
+/*.section1 						{background-image: url('../images/bg1.jpg');}*/
+.section2 						{background-image: url('../images/bg2.jpg');} /*https://www.zoho.com/desk/images/your-desk-bg.jpg*/
+.section3 						{background-image: url('../images/bg1.jpg');} /*http://www.qabook.com/Images/QABook-Desktop-Main.jpg*/
+
+.features-item .content-wrap {
+	padding-bottom: 0;
+}
+
+.features-item h2,
+.features-item.bottom-image .cont-part,
+.features-item.middle-image .cont-part {
+margin-bottom: 0;
+}
+
+.features-item .cont-part .image-slider .l-m {
+margin-top: 0px;
+}
+
+/*  .features-banner-wrap::before {
+background: rgba(26, 39, 51, 0.8) none repeat scroll 0 0;
+content: "";
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 0;
+}*/
+
+.promo-wrap .l-m,
+.your-desk-content .learn-more {
+display: inline-block;
+float: none;
+clear: both;
+padding-top: 0;
+text-decoration: none;
+position: relative;
+padding-right: 12px;
+}
+
+.promo-wrap .l-m::after,
+.your-desk-content .learn-more::after {
+border-color: transparent transparent transparent #00aeef;
+border-style: solid;
+border-width: 5px 0 5px 7px;
+content: "";
+height: 0;
+right: 0px;
+position: absolute;
+top: 8px;
+width: 0;
+}
+
+section.bot-banner-wrap {
+display: block !important;
+}
+
+.bot-banner-wrap #bottom-section {
+display: none;
+}
+
+
+
+     /******slider********/
+
+     .image-slider {
+         max-width: 1170px;
+         margin: 30px auto;
+         width: 80%;
+         position: relative;
+         text-align: center;
+     }
+
+.features-item .promo-wrap{overflow:hidden;}
+
+     .slider-img-container {
+         width: 100%;
+         position: relative;
+         height: 450px;
+         box-sizing: border-box;
+     }
+
+     .slider-img-container img {
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%; /*box-shadow: 10px 10px 13px -2px rgba(0, 0, 0,0.05);*/
+         opacity: 0;
+         transition: all 0.6s ease; /*max-width:800px;*/
+	} 
+	.slider-nav-desc { margin-bottom: 30px; display: inline-block; position: relative; padding: 0 10px;}
+
+     #desk-for-managers  .slider-img-container img,#desk-for-customers .slider-img-container img{
+        -webkit-box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.05);
+         -moz-box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.05);
+         box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.05);
+     }
+
+     .slider-nav-desc:after {
+         background: #efefef none repeat scroll 0 0;
+         bottom: -6px;
+         content: "";
+         height: 1px;
+         left: 0;
+         position: absolute;
+         width: 94%; right: 0;margin: auto;
+     }
+
+     .slider-img-desc {
+         position: relative;
+         max-width: 500px;
+         margin: 0 auto 40px;
+         min-height: 45px;
+     }
+
+     .slider-img-desc p {
+         opacity: 0;
+         transition: all 0.4s ease;
+         display: none;
+         position: absolute;
+     }
+
+    .image-slider .slider-img-desc-hover p.active {/*margin:15px;*/display:inline-block;opacity:1;} 
+	.slider-img-container img.active,.slider-img-desc p.active {
+		opacity: 1 !important;
+		transition: all 0.4s ease;
+		display: block;
+		z-index: 10;
+	}
+	.slider-nav-desc span {
+		color: #959595;
+		font-family: proxima_nova_rgregular;
+		font-size: 18px;
+		padding: 0 5px;
+		margin-right: 20px;
+		cursor: pointer;
+		text-transform: uppercase;
+	}
+	.slider-nav-desc span.active {
+		color: #00aeef;
+		position: relative;
+	}
+	.slider-nav-desc span.active:after {
+		background: #00aeef none repeat scroll 0 0;
+		bottom: -10px;
+		content: "";
+		height: 2px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		z-index: 2
+	}
+	.slider-nav-desc span:last-child {
+		margin-right: 0;
+	}
+	.slider-nav-arrow { /*display:none;*/} 
+	.image-slider .slider-img-desc-hover { display: block; position: fixed; overflow: hidden; background: rgba(0, 0, 0, 0.8);
+		width: 200px;
+	}
+	.zleft-nav,
+	.zright-nav {
+		background-image: url("https://www.zoho.com/desk/images/slider-navi-arrow.png");
+		background-repeat: no-repeat;
+		background-size: 60px auto;
+		cursor: pointer;
+		background-position: -30px 0;
+		display: inline-block;
+		height: 60px;
+		position: absolute;
+		top: 50%;
+		width: 30px;
+		margin-top: -30px;
+		text-indent: -9999px;
+	}
+	.zleft-nav {
+		display: none;
+		left: -100px;
+	}
+	.zright-nav {
+		left: auto;
+		right: -100px;
+		transform: rotate(180deg);
+	}
+	@media screen and (max-width: 1000px) {
+		.image-slider {
+			margin: 40px auto 20px;
+		}
+	}
+	@media screen and (max-width: 1050px) {
+		.zleft-nav {
+			left: -50px;
+		}
+		.zright-nav {
+			right: -50px;
+		}
+	}
+	@media screen and (max-width: 992px) {
+		.slider-nav-desc {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.slider-img-desc {
+			margin-top: 0;
+		}
+		.slider-nav-arrow {
+			display: block;
+		}
+		.slider-nav-arrow.zleft-nav {
+			display: none;
+		}
+		.zleft-nav,
+		.zright-nav {
+			background-size: 30px auto;
+			height: 30px;
+			margin-top: -7px;
+			width: 15px;
+			background-position: -15px 0;
+		}
+		.zleft-nav {
+			left: -7%;
+		}
+		.zright-nav {
+			right: -7%;
+		}
+		.features-item .cont-part p.curve {
+			font-size: 22px;
+			line-height: 1;
+		}
+		.slider-img-container {
+			width: 86%;
+			margin: 0 auto;
+		}
+		.image-slider {
+			width: 90%;
+		}
+		#desk-for-customers .zleft-nav,
+		#desk-for-customers .zright-nav {
+			margin-top: -40px;
+		}
+		.image-slider{
+			overflow:hidden;
+		}
+	}
+	@media screen and (max-width: 400px) {
+		.slider-img-container {
+			width: 80%;
+		}
+		.zleft-nav {
+			left: -10%;
+		}
+		.zright-nav {
+			right: -10%;
+		}
+	}
+	.poster-video	{position: relative;display: inline-block; width: 100%;}
+	.poster-video:after {content: '';position: absolute;left: 50%;top: 45%;width: 150px;height: 50px;
+		border-top: 10px solid #f00;
+		border-bottom: 10px solid #000;	
+		border-left: 10px solid #fff;
+		border-right: 10px dashed #ff0;z-index: 3;margin: -10px 0 0 -4px;
+	}
+	.testimonial-video-detail {
+		position: absolute;
+		width: 90%;
+		height: auto;
+		left: 5%;
+		top: 45%;
+		margin-top: 60px;
+		pointer-events: none;
+	}
+
+	.is-animated {
+           animation: 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275) zoom-in;
+       }
+
+       @keyframes zoom-in {
+           0% {
+               transform: translateY(20px);
+           }
+           100% {
+               transform: translateY(0);
+           }
+       }
