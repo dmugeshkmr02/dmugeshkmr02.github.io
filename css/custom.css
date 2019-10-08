@@ -290,10 +290,10 @@ body											        {font-family: 'Open Sans', sans-serif;font-size:14px;colo
 
 .skills_tabsWrap               {position: relative;}
 .skills_tabs                   {width: 100%; display: flex; display: -webkit-flex;display: -moz-flex; display: -ms-flexbox; -webkit-flex-flow: row wrap; -moz-flex-flow: row wrap; flex-flow:row wrap; justify-content: center; align-items: center; align-content:  center;  }
-.skills_tabs li                {opacity:0.77;position:relative;list-style-type: none;/*width:8.32%;*/width:auto; margin:10px; padding:10px; cursor: pointer; background: #9f9eb0;font-size: 1.1em;font-weight: 400; line-height: 1em; text-transform: uppercase; text-align : center;}
+.skills_tabs li                {opacity:0.77;position:relative;list-style-type: none;/*width:8.32%;*/width:auto;border-radius: 50px; margin:1em 1em; padding:20px 25px; cursor: pointer; background: rgba(0,0,0,0.08);font-size: 1.2em;font-weight: 600; line-height: 1em; text-transform: uppercase; text-align : center;}
 .skills_tabs li:hover,
-.skills_tabs li.active          {opacity:1; background: #747087;padding:10px 20px;}
-.skills_tabs li a               {color: #fff;}
+.skills_tabs li.active          {opacity:1; color: #fff;background: rgba(0,0,0,0.8);padding:20px 55px;}
+.skills_tabs li a               {color: rgba(0,0,0,0.6);}
  
 /*--------------- Works Section --------------*/
 .works_section                       {padding:3em 0px;display: flex; display: -webkit-flex;display: -moz-flex; display: -ms-flexbox; -webkit-flex-flow: row nowrap; -moz-flex-flow: row nowrap; flex-flow: row nowrap; justify-content:center; align-items: flex-start; align-content: flex-start; }
