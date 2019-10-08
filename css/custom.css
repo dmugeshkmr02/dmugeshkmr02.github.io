@@ -174,9 +174,9 @@ h4												        {}
 h5												        {}
 h6											  	      {}
 p												          {color:#000002; line-height:24px;}
-.cubic-bezier1,.header,.header:hover .logo,.logo,.logo img,.skills_tabs li            {-webkit-transition: all .27s cubic-bezier(0, 0, .58, 1);-moz-transition: all .27s cubic-bezier(0, 0, .58, 1);-o-transition: all .27s cubic-bezier(0, 0, .58, 1);-ms-transition: all .27s cubic-bezier(0, 0, .58, 1);transition: all .27s cubic-bezier(0, 0, .58, 1);}
+.cubic-bezier1,.header,.header:hover .logo,.logo,.logo img            {-webkit-transition: all .27s cubic-bezier(0, 0, .58, 1);-moz-transition: all .27s cubic-bezier(0, 0, .58, 1);-o-transition: all .27s cubic-bezier(0, 0, .58, 1);-ms-transition: all .27s cubic-bezier(0, 0, .58, 1);transition: all .27s cubic-bezier(0, 0, .58, 1);}
 
-.cubic-bezier2,.my_img,.skills_tabs,
+.cubic-bezier2,.my_img,.skills_tabs,.skills_tabs li,
 .skills_tabs li:hover,.skills_tabs li.active,.skills_tabs li:hover a,.skills_tabs li.active a,
 .works_details,.works_tab:hover .works_details,
 .btn span,.btn:hover span,.btn span:after,
