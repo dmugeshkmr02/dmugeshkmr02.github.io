@@ -174,10 +174,10 @@ h4												        {}
 h5												        {}
 h6											  	      {}
 p												          {color:#000002; line-height:24px;}
-.cubic-bezier1,.header,.header:hover .logo,.logo,.logo img            {-webkit-transition: all .27s cubic-bezier(0, 0, .58, 1);-moz-transition: all .27s cubic-bezier(0, 0, .58, 1);-o-transition: all .27s cubic-bezier(0, 0, .58, 1);-ms-transition: all .27s cubic-bezier(0, 0, .58, 1);transition: all .27s cubic-bezier(0, 0, .58, 1);}
+.cubic-bezier1,.header,.header:hover .logo,.logo,.logo img,.skills_tabs li            {-webkit-transition: all .27s cubic-bezier(0, 0, .58, 1);-moz-transition: all .27s cubic-bezier(0, 0, .58, 1);-o-transition: all .27s cubic-bezier(0, 0, .58, 1);-ms-transition: all .27s cubic-bezier(0, 0, .58, 1);transition: all .27s cubic-bezier(0, 0, .58, 1);}
 
 .cubic-bezier2,.my_img,.skills_tabs,
-.skills_tabs li,.skills_tabs li:hover,
+.skills_tabs li:hover,.skills_tabs li.active,
 .works_details,.works_tab:hover .works_details,
 .btn span,.btn:hover span,.btn span:after,
 .btn:hover span::after,.main_nav,.main_nav_open,
@@ -292,7 +292,7 @@ body											        {font-family: 'Open Sans', sans-serif;font-size:14px;colo
 .skills_tabs                   {width: 100%; display: flex; display: -webkit-flex;display: -moz-flex; display: -ms-flexbox; -webkit-flex-flow: row wrap; -moz-flex-flow: row wrap; flex-flow:row wrap; justify-content: center; align-items: center; align-content:  center;  }
 .skills_tabs li                {opacity:0.77;position:relative;list-style-type: none;/*width:8.32%;*/width:auto;border-radius: 50px; margin:1em 1em; padding:20px 25px; cursor: pointer; background: rgba(0,0,0,0.08);font-size: 1.2em;font-weight: 600; line-height: 1em; text-transform: uppercase; text-align : center;}
 .skills_tabs li:hover,
-.skills_tabs li.active          {opacity:1; color: #fff;background: rgba(0,0,0,0.8);padding:20px 55px;}
+.skills_tabs li.active          {opacity:1; color: #fff !important;background: rgba(0,0,0,0.8) ;padding:20px 55px;}
 .skills_tabs li a               {color: rgba(0,0,0,0.6);}
  
 /*--------------- Works Section --------------*/
