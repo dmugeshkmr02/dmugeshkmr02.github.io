@@ -380,7 +380,8 @@ body											        {font-family: 'Open Sans', sans-serif;font-size:14px;colo
 footer                                {position:absolute; left:50%;bottom:10px; transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);}
 footer p                              {text-align:center; padding:10px;}
 .cssreel 							                      {position: fixed;top: 82px;left: 12px;z-index: 100;display: block;}
-.pageview_counter                     {position: absolute;right: 10px;bottom: 30px;}
+.pageview_counter                     {position: absolute;right: -5px;background-color: #605b76;border: 1px solid #605b76;bottom: 20px;padding: 10px 40px 2px 10px;transform: skewX(50deg);}
+.pageview_counter img                 {transform: skewX(-50deg); -webkit-transform: skewX(-50deg); -moz-transform: skewX(-50deg); margin-left: 10px;}
 /*--------------// Responsive Queries //-------------*/
 @media screen and (min-width: 1440px)
 {
