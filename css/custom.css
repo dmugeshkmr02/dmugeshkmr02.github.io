@@ -253,10 +253,10 @@ body											        {font-family: 'Open Sans', sans-serif;font-size:14px;colo
 .exp_ul                         {padding-bottom:1.5em;}
 .exp_ul li                      {display: inline-block;padding-bottom:1em; font-size:1em;line-height: 1.5em;}
 .exp_ul li p                    {font-weight: 600;}
-.exp_ul li p span.years         {padding:0.2em 1em;width:130px; display: inline-block; position:relative;z-index: 1;}
+.exp_ul li p span.years         {padding:0.2em 1em;width:auto; display: inline-block; position:relative;z-index: 1;}
 .exp_ul li p span.years::after 	{content:''; display:inline-block;position:absolute; top:0px;left:0px;width:0px;height:30px;padding:0.2em 1em;z-index:-1;}
 .exp_ul li:hover p span         {color: #fff;}
-.exp_ul li:hover p span.years::after 	{width:130px;background: #1e1e1e; background: -moz-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%);background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #1e1e1e), color-stop(100%, #fff));background: -webkit-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%); background: -o-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%); background: -ms-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%); background: linear-gradient(135deg, #1e1e1e 0%, #fff 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1e1e1e', endColorstr='#fff', GradientType=1);}
+.exp_ul li:hover p span.years::after 	{width:auto;background: #1e1e1e; background: -moz-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%);background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #1e1e1e), color-stop(100%, #fff));background: -webkit-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%); background: -o-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%); background: -ms-linear-gradient(-45deg, #1e1e1e 0%, #fff 100%); background: linear-gradient(135deg, #1e1e1e 0%, #fff 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1e1e1e', endColorstr='#fff', GradientType=1);}
 /*--------------- Skills Section --------------*/
 .skills_section                {padding:3em 0px;background-color:#fafafa; /*background-image: url('../images/bg2.jpg');*/}
 .brain_ram                     {display:none;clear:both;position:relative;min-height:80px; top:70px;}
